@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   },
   description:
     "The Rowe Collection, LLC — an AI-native business built on intelligence. Home of RoweOS.",
+  metadataBase: new URL("https://therowecollection.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "The Rowe Collection",
+  },
 };
 
 export default function RootLayout({
