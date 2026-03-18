@@ -1,26 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=DM+Sans:wght@400;500;600;700&display=swap");
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-trc-black: #0a0a0a;
+  --color-trc-cream: #ece4d8;
+  --color-trc-gold: #f2dfc5;
+  --color-trc-bronze: #6b5d4d;
+  --color-trc-gold-mid: #c4a882;
+  --color-trc-border: rgba(255, 255, 255, 0.08);
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-serif: "Old Standard TT", serif;
+  --font-sans: "DM Sans", sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --letter-spacing-luxury: 0.25em;
+
+  --animate-fade-up: fade-up 0.6s ease-out forwards;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    @apply bg-trc-black text-trc-cream font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
 }
