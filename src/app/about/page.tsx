@@ -19,56 +19,80 @@ export default function AboutPage() {
         subtitle="The Rowe Collection is not a traditional business. It's an AI-native company where every brand, service, and product is powered by intelligence from the ground up."
       />
 
+      {/* ── The Rowe Collection, LLC ── */}
       <section className="py-24 px-6 border-t border-trc-border">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Founder &amp; CEO</span>
-            <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-4">Jordan Rowe</h2>
-            <p className="text-trc-gold/60 text-sm tracking-wide uppercase mb-10">Founder &amp; Chief Executive Officer, The Rowe Collection, LLC</p>
+            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">The Company</span>
+            <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-10">The Rowe Collection, LLC</h2>
             <div className="space-y-6 text-trc-cream/60 leading-relaxed">
-              <p>Jordan Rowe is the founder and CEO of The Rowe Collection, LLC, an AI-native holding company based in Austin, Texas. With a background in technology and a passion for delivering luxury experiences, Jordan started The Rowe Collection with a singular conviction: that intelligence and luxury are not separate pursuits, but complementary forces that elevate everything they touch.</p>
-              <p>Before founding TRC, Jordan developed deep expertise across software development, product design, and business operations. That technical foundation became the catalyst for RoweOS, a proprietary AI platform that Jordan designed, engineered, and built from the ground up. RoweOS serves as the operating intelligence behind every brand in The Rowe Collection, managing strategy, marketing, operations, content, and client relationships through specialized AI agents.</p>
-              <p>Under Jordan&apos;s leadership, The Rowe Collection has grown into a portfolio of five distinct brands, each combining premium quality with intelligent operations. From Rowe Solo Training&apos;s owner-led service dog certification programs, to Rowe Retreats&apos; luxury accommodations in Austin&apos;s Domain, to Rowe Reserve&apos;s personalized concierge services, every offering reflects the same philosophy: deliver exceptional experiences, powered by intelligence.</p>
-              <p>Jordan&apos;s approach to entrepreneurship is rooted in building systems that scale. Rather than treating AI as an add-on, Jordan architected The Rowe Collection so that intelligence is the foundation, not a feature. This model has made it possible for a single founder to operate multiple brands at a level of sophistication typically reserved for much larger organizations.</p>
+              <p>The Rowe Collection, LLC is an AI-native holding company headquartered in Austin, Texas. Founded with the belief that intelligence and luxury belong together, TRC operates a portfolio of five brands across service dog training, luxury hospitality, personalized concierge, custom goods, and enterprise AI.</p>
+              <p>What makes The Rowe Collection different is what sits underneath it. Every brand in the portfolio runs on RoweOS, a proprietary AI platform built in-house. RoweOS is not a third-party tool or integration. It is the operating system of the company. Strategy, marketing, operations, client relationships, content creation, scheduling, and business intelligence all flow through a single platform with specialized AI agents purpose-built for each domain.</p>
+              <p>This architecture means The Rowe Collection operates with the capabilities of a much larger organization while maintaining the focus and agility of a founder-led company. Each brand benefits from shared intelligence, unified operations, and a consistent standard of quality that comes from having one system managing the entire portfolio.</p>
+              <p>The Rowe Collection is not a company that adopted AI after the fact. It was conceived, structured, and built with intelligence as its foundation from the very first day.</p>
             </div>
           </FadeUp>
         </div>
       </section>
 
-      <section className="py-24 px-6 border-t border-trc-border">
-        <div className="max-w-4xl mx-auto">
-          <FadeUp>
-            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Leadership</span>
-            <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-10">The Team Behind TRC</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-trc-cream/[0.03] border border-trc-border rounded-2xl p-8">
-                <div className="text-trc-gold text-xs tracking-luxury uppercase mb-3">Founder &amp; CEO</div>
-                <h3 className="text-xl font-serif text-trc-cream mb-2">Jordan Rowe</h3>
-                <p className="text-trc-cream/50 text-sm leading-relaxed">Technology entrepreneur with expertise in software engineering, AI systems, and luxury brand operations. Designed and built RoweOS from the ground up. Leads all strategy, product development, and business operations across the TRC portfolio.</p>
-              </div>
-              <div className="bg-trc-cream/[0.03] border border-trc-border rounded-2xl p-8">
-                <div className="text-trc-gold text-xs tracking-luxury uppercase mb-3">AI Platform</div>
-                <h3 className="text-xl font-serif text-trc-cream mb-2">RoweOS</h3>
-                <p className="text-trc-cream/50 text-sm leading-relaxed">The proprietary operating intelligence that powers every brand. Features 8 specialized business agents, 5 life coach archetypes, and cross-mode intelligence connecting brand and personal operations. Built by Jordan Rowe as the central nervous system of TRC.</p>
-              </div>
-            </div>
-          </FadeUp>
-        </div>
-      </section>
-
+      {/* ── AI-Native Model ── */}
       <section className="py-24 px-6 border-t border-trc-border">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
             <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">The Model</span>
             <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-8">AI-Native from Day One</h2>
             <div className="space-y-6 text-trc-cream/60 leading-relaxed">
-              <p>The Rowe Collection is a digital-native business model. Every brand identity, content strategy, customer interaction, and operational decision runs through RoweOS.</p>
-              <p>This isn't about using AI as a tool. It's about building a company where intelligence is the operating system. The brands under TRC aren't just marketed with AI -- they're managed, measured, and evolved by it.</p>
+              <p>Every brand identity, content strategy, customer interaction, and operational decision runs through RoweOS. The brands under TRC are not just marketed with AI. They are managed, measured, and evolved by it.</p>
+              <p>RoweOS features eight specialized business agents covering strategy, marketing, operations, documents, intelligence, research, social media, and image generation. On the personal side, five life coach archetypes provide guidance across wellness, finances, relationships, career, and daily planning. Cross-mode intelligence connects both sides, so business decisions are informed by personal context and vice versa.</p>
+              <p>The result is an operating model where a single founder can build, run, and grow multiple premium brands at a level of sophistication that would traditionally require a full team for each one.</p>
             </div>
           </FadeUp>
         </div>
       </section>
 
+      {/* ── Founder ── */}
+      <section className="py-24 px-6 border-t border-trc-border">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp>
+            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Founder</span>
+            <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-4">Jordan Rowe</h2>
+            <p className="text-trc-gold/60 text-sm tracking-wide uppercase mb-10">Founder &amp; Chief Executive Officer</p>
+            <div className="space-y-6 text-trc-cream/60 leading-relaxed">
+              <p>Jordan Rowe is the founder and CEO of The Rowe Collection, LLC and the sole creator of RoweOS. Based in Austin, Texas, Jordan brings a background that spans technology, software engineering, product design, and luxury brand operations.</p>
+              <p>Jordan founded The Rowe Collection with a clear vision: to build a company where intelligence and luxury are not at odds, but are the same thing. The idea was that the highest quality experiences, whether in hospitality, personal services, or everyday products, should be powered by the most sophisticated systems available. That conviction led Jordan to design and engineer RoweOS from the ground up, writing every line of code and shaping every interaction to reflect a standard of quiet competence and professional elegance.</p>
+              <p>The decision to build a proprietary AI platform was deliberate. Jordan saw that existing tools forced businesses to bolt intelligence onto processes that were never designed for it. The alternative was to start from zero and build a company where intelligence is not a feature but the foundation. Every brand, every workflow, every decision under The Rowe Collection runs through the same system because it was designed that way from the start.</p>
+              <p>Jordan&apos;s technical background made this possible. Years of experience in software development and product engineering provided the skills to architect a platform that handles everything from multi-provider AI orchestration and automated content pipelines to real-time client management and cross-brand analytics. But the technology was always in service of the vision, not the other way around.</p>
+              <p>Today, Jordan leads all strategy, product development, and brand operations across the TRC portfolio. The Rowe Collection stands as a working proof of concept for a new kind of business: one where a single founder, equipped with the right intelligence infrastructure, can deliver premium experiences across multiple verticals at a level that matches or exceeds what larger organizations produce.</p>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── Leadership Card ── */}
+      <section className="py-24 px-6 border-t border-trc-border">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp>
+            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Leadership</span>
+            <h2 className="text-3xl md:text-5xl font-serif text-trc-cream mb-10">Team</h2>
+            <div className="bg-trc-cream/[0.03] border border-trc-border rounded-2xl p-10">
+              <div className="text-trc-gold text-xs tracking-luxury uppercase mb-3">Founder &amp; CEO</div>
+              <h3 className="text-2xl font-serif text-trc-cream mb-4">Jordan Rowe</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-trc-cream/50 text-sm leading-relaxed">
+                <div>
+                  <div className="text-trc-gold/60 text-xs uppercase tracking-wide mb-2">Role</div>
+                  <p>Founder, CEO, and sole developer of RoweOS. Leads strategy, product, engineering, and brand operations across the entire TRC portfolio.</p>
+                </div>
+                <div>
+                  <div className="text-trc-gold/60 text-xs uppercase tracking-wide mb-2">Background</div>
+                  <p>Technology entrepreneur with deep expertise in software engineering, AI systems architecture, product design, and luxury brand management. Based in Austin, TX.</p>
+                </div>
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── Our Brands ── */}
       <section className="py-24 px-6 border-t border-trc-border">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
@@ -83,6 +107,7 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── Milestones ── */}
       <section className="py-24 px-6 border-t border-trc-border">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
@@ -94,7 +119,7 @@ export default function AboutPage() {
       </section>
 
       <CTAStrip
-        heading="Let's Build Together"
+        heading="Let&apos;s Build Together"
         ctas={[
           { text: "Get in Touch", href: "/contact" },
           { text: "Explore RoweOS", href: "/roweos", variant: "outline" },
