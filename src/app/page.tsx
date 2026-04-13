@@ -76,10 +76,10 @@ export default function Home() {
       <section className="py-24 px-6 border-t border-trc-border">
         <div className="max-w-3xl mx-auto text-center">
           <FadeUp>
-            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Founded by Jordan Rowe</span>
+            <span className="text-xs tracking-luxury uppercase text-trc-gold/80 mb-4 block">Founded by Jordan Rowe, CEO</span>
             <h2 className="text-3xl md:text-4xl font-serif text-trc-cream mb-6">Built on Intelligence</h2>
             <p className="text-trc-cream/60 leading-relaxed mb-8">
-              The Rowe Collection is a digital-native business model where every brand, service, and product is powered by AI-driven intelligence. From service dog training to luxury retreats, intelligence is the thread that connects everything we do.
+              The Rowe Collection, LLC was founded by Jordan Rowe, a technology entrepreneur with a background in software engineering and luxury brand operations. Every brand, service, and product is powered by RoweOS, the proprietary AI platform Jordan built from the ground up. From service dog training to luxury retreats, intelligence is the thread that connects everything we do.
             </p>
             <CTA text="Learn More" href="/about" variant="outline" />
           </FadeUp>
