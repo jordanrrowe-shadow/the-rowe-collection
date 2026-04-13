@@ -64,6 +64,20 @@ export default function AboutPage() {
               <p>Jordan&apos;s technical background made this possible. Years of experience in software development and product engineering provided the skills to architect a platform that handles everything from multi-provider AI orchestration and automated content pipelines to real-time client management and cross-brand analytics. But the technology was always in service of the vision, not the other way around.</p>
               <p>Today, Jordan leads all strategy, product development, and brand operations across the TRC portfolio. The Rowe Collection stands as a working proof of concept for a new kind of business: one where a single founder, equipped with the right intelligence infrastructure, can deliver premium experiences across multiple verticals at a level that matches or exceeds what larger organizations produce.</p>
             </div>
+            <div className="mt-12 flex flex-wrap gap-6 items-center">
+              <a href="mailto:jordan@therowecollection.com" className="flex items-center gap-2 text-trc-cream/50 hover:text-trc-gold transition-colors text-sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                jordan@therowecollection.com
+              </a>
+              <a href="https://instagram.com/roweos.AI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-trc-cream/50 hover:text-trc-gold transition-colors text-sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                @roweos.AI
+              </a>
+              <a href="https://x.com/roweos_AI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-trc-cream/50 hover:text-trc-gold transition-colors text-sm">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                @roweos.AI
+              </a>
+            </div>
           </FadeUp>
         </div>
       </section>
