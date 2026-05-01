@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | The Rowe Collection",
   },
   description:
-    "The Rowe Collection, LLC — an AI-native business built on intelligence. Home of RoweOS.",
+    "The Rowe Collection, LLC - an AI-native business built on intelligence. Home of Brilliance, the Intelligence OS, powered by RoweOS.",
   metadataBase: new URL("https://therowecollection.com"),
   openGraph: {
     type: "website",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { EmailSignup } from "./email-signup";
 
 const footerLinks = [
+  { href: "/brilliance", label: "Brilliance" },
   { href: "/roweos", label: "RoweOS" },
   { href: "/solo-training", label: "Solo Training" },
   { href: "/retreats", label: "Retreats" },
@@ -20,7 +21,7 @@ export function Footer() {
           <div>
             <h3 className="font-serif text-xl text-trc-cream mb-4">The Rowe Collection</h3>
             <p className="text-sm text-trc-cream/50 leading-relaxed">
-              An AI-native business built on intelligence. Austin, TX.
+              An AI-native business built on intelligence. Home of Brilliance, the Intelligence OS by RoweOS. Austin, TX.
             </p>
           </div>
 
