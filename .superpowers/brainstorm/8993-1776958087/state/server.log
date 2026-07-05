@@ -1,0 +1,6 @@
+{"type":"server-started","port":52325,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:52325","screen_dir":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/content","state_dir":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/state"}
+{"type":"screen-added","file":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/content/current-structure.html"}
+{"type":"screen-added","file":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/content/proposed-structure.html"}
+{"type":"screen-added","file":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/content/final-plan.html"}
+{"type":"screen-added","file":"/Users/jordanrowe/Developer/the-rowe-collection/.superpowers/brainstorm/8993-1776958087/content/final-plan-v2.html"}
+{"type":"server-stopped","reason":"idle timeout"}

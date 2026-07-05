@@ -1,0 +1,70 @@
+<h2>Final Design: /roweos Page Cleanup</h2>
+<p class="subtitle">3 changes to page.tsx. Confirm and I'll implement.</p>
+
+<div style="display: grid; gap: 24px; max-width: 640px; margin: 0 auto;">
+
+  <!-- Change 1 -->
+  <div style="padding: 20px; border: 1px solid rgba(220,38,38,0.25); border-radius: 12px; background: rgba(220,38,38,0.05);">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+      <span style="font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 20px; background: rgba(220,38,38,0.12); color: #dc2626;">1. REMOVE</span>
+      <span style="font-size: 14px; font-weight: 500; color: #1a1a1a;">3 Visual Breaks</span>
+    </div>
+    <ul style="font-size: 13px; color: #555; margin: 0; padding-left: 18px; line-height: 2;">
+      <li>BLAKE Helix image (lines ~202-210)</li>
+      <li>"AI that knows your brand by name" image (lines ~239-247)</li>
+      <li>Helix Brand Intel image (lines ~319-327)</li>
+    </ul>
+  </div>
+
+  <!-- Change 2 -->
+  <div style="padding: 20px; border: 1px solid rgba(124,58,237,0.25); border-radius: 12px; background: rgba(124,58,237,0.05);">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+      <span style="font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 20px; background: rgba(124,58,237,0.12); color: #7c3aed;">2. MOVE</span>
+      <span style="font-size: 14px; font-weight: 500; color: #1a1a1a;">"What if your brand could think?"</span>
+    </div>
+    <div style="font-size: 13px; color: #555; line-height: 1.7;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+        <span style="color: #999;">From:</span> <span>After Core Capabilities</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="color: #7c3aed; font-weight: 500;">To:</span> <span>After BLAKE section, before AI Agents</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Change 3 -->
+  <div style="padding: 20px; border: 1px solid rgba(22,163,74,0.25); border-radius: 12px; background: rgba(22,163,74,0.05);">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+      <span style="font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 20px; background: rgba(22,163,74,0.12); color: #16a34a;">3. UPDATE</span>
+      <span style="font-size: 14px; font-weight: 500; color: #1a1a1a;">Features Grid</span>
+    </div>
+    <p style="font-size: 13px; color: #555; margin: 0 0 12px; line-height: 1.6;">
+      Swap 2 items to highlight recent additions. Grid stays at 12 (clean 3-col layout).
+    </p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      <div>
+        <span style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.1em;">Replacing</span>
+        <div style="margin-top: 6px; padding: 10px 14px; border: 1px solid rgba(220,38,38,0.15); border-radius: 8px; background: rgba(220,38,38,0.04);">
+          <p style="font-size: 13px; color: #777; margin: 0; line-height: 1.8;">
+            Search (Cmd+K)<br>
+            Rhythm (calendar)
+          </p>
+        </div>
+      </div>
+      <div>
+        <span style="font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.1em;">Adding</span>
+        <div style="margin-top: 6px; padding: 10px 14px; border: 1px solid rgba(22,163,74,0.15); border-radius: 8px; background: rgba(22,163,74,0.04);">
+          <p style="font-size: 13px; color: #444; margin: 0; line-height: 1.8;">
+            <strong style="color: #16a34a;">Notebooks</strong> - Rich-text editor with AI writing and brand-scoped pages<br>
+            <strong style="color: #16a34a;">Analytics</strong> - KPI dashboard with revenue, clients, brand health, and AI usage
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top: 28px; padding: 16px 20px; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; background: rgba(0,0,0,0.02); text-align: center;">
+  <p style="font-size: 13px; color: #777; margin: 0;">All edits in one file: <code style="font-size: 12px; padding: 2px 6px; background: rgba(0,0,0,0.05); border-radius: 4px; color: #333;">src/app/roweos/page.tsx</code></p>
+</div>
